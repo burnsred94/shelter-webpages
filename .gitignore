@@ -1,0 +1,7 @@
+node_modules
+#dependencies
+/node_modules
+
+#dev
+*gulpfile.js
+/src
