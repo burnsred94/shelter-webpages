@@ -925,3 +925,95 @@ a {
   letter-spacing: 0.06em;
   font-family: "Georgia";
 }
+
+@media (max-width: 768px) {
+  .header {
+    width: 767px;
+  }
+  .header__inner {
+    width: 767px;
+    justify-content: space-around;
+  }
+  .header__content {
+    flex-direction: column;
+    width: 767px;
+  }
+  .header__content-help {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .header__content-help__title {
+    display: inline-flex;
+  }
+  .header__content-help__button {
+    display: flex;
+    justify-content: center;
+  }
+  .header__content-images img {
+    width: 350px;
+  }
+  .about {
+    width: 767px;
+  }
+  .friends {
+    width: 767px;
+  }
+  .friends__slider {
+    width: 720px;
+  }
+  .friends__slider-list {
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+  }
+  .friends__slider-item {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+  .friends__slider-btn {
+    width: 52px;
+    height: 52px;
+  }
+  .benefaction {
+    width: 767px;
+  }
+  .benefaction__inner {
+    width: 767px;
+  }
+  .benefaction__content {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+  }
+  .benefaction__content-item {
+    margin: 40px;
+  }
+  .donation {
+    width: 767px;
+  }
+  .donation__inner {
+    width: 700px;
+    flex-direction: column-reverse;
+  }
+  .donation__descr {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .donation__descr-card {
+    margin-bottom: 20px;
+  }
+  .footer {
+    width: 767px;
+  }
+  .footer__inner {
+    width: 700px;
+    margin-bottom: 40px;
+  }
+  .footer__inner img {
+    display: none;
+  }
+}
